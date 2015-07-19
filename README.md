@@ -10,15 +10,18 @@ When your FN keys don't work
 
 1. ```sudo apt-get install inotify-tools```
 
-2. Clone this repo and use the script that fits your laptop. Looking at the folders in ```/sys/class/backlight``` may help you choose.
+2. Clone this repo 
 
 3. Edit *MULTIPLIER* variable dividing max-bri
 
+4. Run as root the script that fits your laptop. Looking at the folders in ```/sys/class/backlight``` may help you choose.
+
 ### What's next
 
-  - installation script
   - automatically set multiplier
   - check at start for inotify-tools to be installed
+  - installation script
+  - automatically run at startup
   - unify scripts (automatically detect non-Intel folder in /sys/class/backlight)
 
 ### Credits and License
